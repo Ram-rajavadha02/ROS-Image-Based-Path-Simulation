@@ -1,0 +1,14 @@
+<launch>
+    <node name="image_publisher" pkg="assignment_1" type="image_publisher" output="screen">
+        <rosparam>
+            obstacles: [[6,5], [5,5], [8,2], [4,7]]
+            start: [9,9]
+            goal: [8,4]
+            width: 10
+            height: 10
+            rate: 1
+            step_by_step: true
+        </rosparam>
+    </node>
+</launch>
+
