@@ -55,6 +55,7 @@ The node requires the following parameters:
 ### Running the Node
 
 Run the ROS node to generate the simulation:
+<package_name> use assignment_1
 
 ```bash
 roslaunch <package_name> <node_name>
